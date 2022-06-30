@@ -1,0 +1,14 @@
+syntax = "proto3";
+package athlete.athlete;
+
+import "gogoproto/gogo.proto";
+import "athlete/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "athlete/x/athlete/types";
+
+// GenesisState defines the athlete module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}
