@@ -1,5 +1,5 @@
-# athlete
-**athlete** is a blockchain built using Cosmos SDK and Tendermint and created with [Ignite CLI](https://ignite.com/cli).
+# Athlete Core
+**athlete core** The full-node software implementation of the Athlete blockchain. is a core built using Cosmos SDK and Tendermint and created with [Ignite CLI](https://ignite.com/cli).
 
 ## Get started
 
